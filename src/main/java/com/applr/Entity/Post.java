@@ -23,9 +23,9 @@ public class Post {
 	private User user;
 	@OneToMany
 	private List<User> likedPost = new ArrayList<>();
-	private LocalDateTime createdAt;
 	@OneToMany
 	private List<Comment> comments = new ArrayList<>();
+	private LocalDateTime createdAt;
 	
 	
 	public Post() {
